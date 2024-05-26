@@ -4,22 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46950c43-6250-4f04-ab10-57a3755f6c7c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/tcgproject/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/tcgproject/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/tcgproject/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/tcgproject/cart.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/project/tcgproject/hello-view.fxml" afterDir="false" />
+    <list default="true" id="46950c43-6250-4f04-ab10-57a3755f6c7c" name="Changes" comment="a">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/tcgproject/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/tcgproject/CardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/tcgproject/CartManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/project/tcgproject/card.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/tcgproject/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/tcgproject/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/tcgproject/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/tcgproject/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/tcgproject/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/tcgproject/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/tcgproject/cart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/tcgproject/cart.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/project/tcgproject/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/project/tcgproject/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,16 +53,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mcire/Desktop/Examen Entornos"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mcire/Desktop/Examen Entornos&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,6 +80,19 @@
       <option name="presentableId" value="Default" />
       <updated>1715848677699</updated>
     </task>
+    <task id="LOCAL-00001" summary="a">
+      <option name="closed" value="true" />
+      <created>1716654031293</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716654031293</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
 </project>
