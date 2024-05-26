@@ -12,9 +12,10 @@ import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
+/**
+ * Controller class for handling the main view in the trading card game application.
+ */
 public class HelloController {
 
     @FXML
@@ -42,29 +43,25 @@ public class HelloController {
     };
 
     private final String[][] cardNames = {
-            {
-                    "Pawmot",
-                    "Medicham",
-                    "Charizard",
-                    "Sprigatito"
-            },
-            {
-                    "Arcanine",
-                    "Giratina",
-                    "Shaymin",
-                    "Pikachu"
-            }
+            {"Pawmot", "Medicham", "Charizard", "Sprigatito"},
+            {"Arcanine", "Giratina", "Shaymin", "Pikachu"}
     };
+
     private CartManager cartManager;
 
+    /**
+     * Initializes the controller by setting up the images and actions.
+     */
     @FXML
     public void initialize() {
         updateImages();
         setImageViewActions();
         cartManager = new CartManager();
-
     }
 
+    /**
+     * Handles the action of moving to the next set of images.
+     */
     @FXML
     private void handleNextAction() {
         if (currentPage < imagePages.length - 1) {
@@ -73,6 +70,9 @@ public class HelloController {
         }
     }
 
+    /**
+     * Handles the action of moving to the previous set of images.
+     */
     @FXML
     private void handlePreviousAction() {
         if (currentPage > 0) {
@@ -81,6 +81,9 @@ public class HelloController {
         }
     }
 
+    /**
+     * Updates the images displayed in the ImageView components.
+     */
     private void updateImages() {
         Image[] images = new Image[5];
         for (int i = 0; i < 5; i++) {
@@ -95,19 +98,31 @@ public class HelloController {
         updateButtonVisibility();
     }
 
+    /**
+     * Updates the visibility of the next and previous buttons based on the current page.
+     */
     private void updateButtonVisibility() {
         prevButton.setVisible(currentPage > 0);
         nextButton.setVisible(currentPage < imagePages.length - 1);
     }
 
+    /**
+     * Sets actions for the ImageView components to handle mouse click events.
+     */
     private void setImageViewActions() {
-        imageView1.setOnMouseClicked(event -> showImageInNewScene(imagePages[currentPage][0], cardNames[currentPage][0-1]));
-        imageView2.setOnMouseClicked(event -> showImageInNewScene(imagePages[currentPage][1], cardNames[currentPage][1-1]));
-        imageView3.setOnMouseClicked(event -> showImageInNewScene(imagePages[currentPage][2], cardNames[currentPage][2-1]));
-        imageView4.setOnMouseClicked(event -> showImageInNewScene(imagePages[currentPage][3], cardNames[currentPage][3-1]));
-        imageView5.setOnMouseClicked(event -> showImageInNewScene(imagePages[currentPage][4], cardNames[currentPage][4-1]));
+        imageView1.setOnMouseClicked(event -> showImageInNewScene(imagePages[currentPage][0], cardNames[currentPage][0]));
+        imageView2.setOnMouseClicked(event -> showImageInNewScene(imagePages[currentPage][1], cardNames[currentPage][1]));
+        imageView3.setOnMouseClicked(event -> showImageInNewScene(imagePages[currentPage][2], cardNames[currentPage][2]));
+        imageView4.setOnMouseClicked(event -> showImageInNewScene(imagePages[currentPage][3], cardNames[currentPage][3]));
+        imageView5.setOnMouseClicked(event -> showImageInNewScene(imagePages[currentPage][4], cardNames[currentPage][4]));
     }
 
+    /**
+     * Displays the selected image in a new scene.
+     *
+     * @param imageUrl the URL of the image to display
+     * @param cardName the name of the card
+     */
     private void showImageInNewScene(String imageUrl, String cardName) {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("card.fxml"));
@@ -116,7 +131,6 @@ public class HelloController {
             CardController cardController = loader.getController();
             cardController.setImage(imageUrl);
             cardController.setCardName(cardName);
-
 
             Scene scene = new Scene(root);
             Stage stage = new Stage();
@@ -127,6 +141,11 @@ public class HelloController {
         }
     }
 
+    /**
+     * Handles the action of going to the cart view.
+     *
+     * @param event the event triggered by the action
+     */
     @FXML
     private void handleGoToCart(ActionEvent event) {
         try {

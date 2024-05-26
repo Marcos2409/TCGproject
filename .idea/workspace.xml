@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46950c43-6250-4f04-ab10-57a3755f6c7c" name="Changes" comment="a" />
+    <list default="true" id="46950c43-6250-4f04-ab10-57a3755f6c7c" name="Changes" comment="Final commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/tcgproject/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/tcgproject/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/tcgproject/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/tcgproject/CardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/tcgproject/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/tcgproject/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/tcgproject/CartManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/tcgproject/CartManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/tcgproject/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/tcgproject/HelloApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,11 +90,20 @@
       <option name="project" value="LOCAL" />
       <updated>1716748272716</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Final commit">
+      <option name="closed" value="true" />
+      <created>1716748334122</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716748334122</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="Final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final commit" />
   </component>
 </project>
